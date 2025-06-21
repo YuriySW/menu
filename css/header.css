@@ -85,7 +85,6 @@
   top: 0;
   left: 0;
   z-index: 1000;
-
   max-height: 0;
   overflow: hidden;
   opacity: 0;
@@ -94,7 +93,8 @@
 }
 
 .header__menu-appears.show {
-  max-height: 800px;
+  max-height: 500px;
+
   opacity: 1;
   transform: translateY(0);
   padding-bottom: 33px;
