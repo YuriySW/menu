@@ -209,7 +209,7 @@
 
   .header__menu-appears-sub.show {
     transform: translateY(0);
-    max-height: 500px; /* укажите нужную максимальную высоту */
+    max-height: 500px;
     height: auto;
     opacity: 1;
     visibility: visible;
@@ -232,15 +232,13 @@
     transition: transform 0.6s ease-out, opacity 0.6s ease-out;
   }
 
-  /* Анимация для внутренних элементов при скрытии */
   .header__menu-appears-sub:not(.show) .header__icon-sub {
     opacity: 0;
     transition-delay: 0s;
   }
 
-  /* Анимация для внутренних элементов при показе */
   .header__menu-appears-sub.show .header__icon-sub {
     opacity: 1;
-    transition-delay: 0.2s; /* задержка для плавного появления */
+    transition-delay: 0.2s;
   }
 }
